@@ -106,7 +106,7 @@ class ClientTrader(IClientTrader):
     def config(self):
         return self._config
 
-    def connect(self, exe_path=None, **kwargs):
+    def connect(self, exe_path=r'D:\同花顺软件\同花顺\xiadan.exe', **kwargs):
         """
         直接连接登陆后的客户端
         :param exe_path: 客户端路径类似 r'C:\\htzqzyb2\\xiadan.exe', 默认 r'C:\\htzqzyb2\\xiadan.exe'
